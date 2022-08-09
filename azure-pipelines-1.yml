@@ -20,7 +20,7 @@ strategy:
       python.version: '3.7'
 
 steps:
-- task: UsePythonVersion@0
+- task: UsePythonVersion@0.206.0
   inputs:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
